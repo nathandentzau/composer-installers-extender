@@ -9,6 +9,19 @@ The format is based on [Keep a Changelog][] and this project adheres to the
 
 ## [Unreleased]
 ### Added
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [2.0.0] - 2020-07-25
+### Added
 - Add `.editorconfig`, `.gitignore`, `.lando.yml`, `phpcs.xml` and `phpunit.xml`
   files to support local development
 - Add `LICENSE` and `CHANGELOG.md` files
@@ -23,14 +36,6 @@ The format is based on [Keep a Changelog][] and this project adheres to the
   `NathanDentzau\ComposerInstallersExtender\Installers\CustomInstaller`
 - Implement PSR-2 standards and PHP 7.4 syntax
 - Update project `README.md` file
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
 
 ## [1.1.2] - 2017-03-31
 ### Changed
