@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace OomphInc\ComposerInstallersExtender\Installers;
+namespace NathanDentzau\ComposerInstallersExtender\Installers;
 
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
@@ -15,7 +15,7 @@ class Installer extends InstallerBase
      *
      * @var array
      */
-    protected $installerTypes;
+    protected array $installerTypes = [];
 
     /**
      * {@inheritDoc}

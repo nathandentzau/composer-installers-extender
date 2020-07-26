@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace OomphInc\ComposerInstallersExtender\Installers;
+namespace NathanDentzau\ComposerInstallersExtender\Installers;
 
 use Composer\Installers\BaseInstaller;
 

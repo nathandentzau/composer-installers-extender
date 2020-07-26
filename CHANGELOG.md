@@ -14,14 +14,14 @@ The format is based on [Keep a Changelog][] and this project adheres to the
 - Add `LICENSE` and `CHANGELOG.md` files
 - Add `phpunit/phpunit` and `squizlabs/php_codesniffer` as development
   dependencies
-- Add requirement for PHP 7.1
+- Add requirement for PHP 7.4
 
 ### Changed
-- Move `OomphInc\ComposerInstallersExtender\Installer` to
-  `OomphInc\ComposerInstallersExtender\Installers\Installer`
-- Move `OomphInc\ComposerInstallersExtender\InstallerHelper` to
-  `OomphInc\ComposerInstallersExtender\Installers\CustomInstaller`
-- Implement PSR-2 standards and PHP 7.1 syntax
+- Move `NathanDentzau\ComposerInstallersExtender\Installer` to
+  `NathanDentzau\ComposerInstallersExtender\Installers\Installer`
+- Move `NathanDentzau\ComposerInstallersExtender\InstallerHelper` to
+  `NathanDentzau\ComposerInstallersExtender\Installers\CustomInstaller`
+- Implement PSR-2 standards and PHP 7.4 syntax
 - Update project `README.md` file
 
 ### Deprecated

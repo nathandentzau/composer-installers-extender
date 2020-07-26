@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1595728885">
+  <project timestamp="1595728885">
+    <package name="NathanDentzau\ComposerInstallersExtender\Installers">
+      <file name="/app/src/Installers/CustomInstaller.php">
+        <class name="NathanDentzau\ComposerInstallersExtender\Installers\CustomInstaller" namespace="NathanDentzau\ComposerInstallersExtender\Installers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="18" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/app/src/Installers/Installer.php">
+        <class name="NathanDentzau\ComposerInstallersExtender\Installers\Installer" namespace="NathanDentzau\ComposerInstallersExtender\Installers">
+          <metrics complexity="5" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="11" coveredelements="11"/>
+        </class>
+        <line num="23" type="method" name="getInstallPath" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="34" type="method" name="supports" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="44" type="method" name="getInstallerTypes" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <metrics loc="53" ncloc="41" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="11" coveredelements="11"/>
+      </file>
+    </package>
+    <package name="NathanDentzau\ComposerInstallersExtender">
+      <file name="/app/src/Plugin.php">
+        <class name="NathanDentzau\ComposerInstallersExtender\Plugin" namespace="NathanDentzau\ComposerInstallersExtender">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+        </class>
+        <line num="17" type="method" name="activate" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <metrics loc="22" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </file>
+    </package>
+    <metrics files="3" loc="93" ncloc="73" classes="2" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="15" coveredelements="15"/>
+  </project>
+</coverage>

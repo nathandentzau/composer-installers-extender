@@ -2,18 +2,19 @@
 
 declare(strict_types = 1);
 
-namespace OomphInc\ComposerInstallersExtender\Installers;
+namespace NathanDentzau\ComposerInstallersExtender\Tests\Installers;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
-use PHPUnit\Framework\TestCase;
 use Composer\Package\Package;
+use NathanDentzau\ComposerInstallersExtender\Installers\Installer;
+use PHPUnit\Framework\TestCase;
 
 class InstallerTest extends TestCase
 {
-    protected $composer;
+    protected Composer $composer;
 
-    protected $io;
+    protected IOInterface $io;
 
     public function setUp(): void
     {

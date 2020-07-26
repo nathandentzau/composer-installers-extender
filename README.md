@@ -12,19 +12,16 @@ specific directory other than `vendor`. This plugin allows additional package
 types to be handled by the [`composer/installers`][] plugin, benefiting from
 their explicit install path mapping and token replacement of package properties.
 
+## Requirements
+
+* PHP 7.4 or higher
+
 ## How to Install
 
-Add `oomphinc/composer-installers-extender` as a dependency of your project:
+Add `nathandentzau/composer-installers-extender` as a dependency of your project:
 
 ```bash
-$ composer require oomphinc/composer-installers-extender
-```
-
-This plugin requires at least PHP 7.1. If you're using a lower version of PHP
-use the latest stable 1.x release:
-
-```bash
-$ composer require oomphinc/composer-installers-extender:^1.1
+$ composer require nathandentzau/composer-installers-extender
 ```
 
 ## How to Use
@@ -69,6 +66,19 @@ or by type, the default installer path for all packages will be used instead.
 Please see the README for [`composer/installers`][] to see the supported syntax
 for package and type matching as well as the supported replacement tokens in
 the path (e.g. `{$name}`).
+
+## Why is This Project Forked?
+
+Years ago I contributed to the `oomphinc/composer-installers-extender` project
+to modernize the code base and add tests. Since my changes were merged into the
+default branch on that project there has been no new tagged released by the
+maintainer containg my changes after several years and responses to pull
+requests have been slow. I've decided to maintain my own version of this package
+containing all the changes I made years ago to update the code base to the
+changes in PHP 7. With Composer 2 and PHP 8 on the horizon, my hope is that I
+can quickly ship changes to support both new major versions. The original author
+of this package, who is no longer an employee of Oomph, is still listed as an
+author with updated contact information should you wish to reach out to him.
 
 ## License
 

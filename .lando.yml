@@ -2,7 +2,7 @@ name: composer-installers-extender
 
 services:
   php:
-    type: php:7.1
+    type: php:7.4
     via: cli
     xdebug: true
 
@@ -10,9 +10,12 @@ tooling:
   composer:
     service: php
     description: Run composer commands
-    cmd:
-      - composer
-      - --ansi
-
+    cmd: composer
   php:
     service: php
+  phpunit:
+    service: php
+    cmd: vendor/bin/phpunit
+  phpcs:
+    service: php
+    cmd: vendor/bin/phpcs

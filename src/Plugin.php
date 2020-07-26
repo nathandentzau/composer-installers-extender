@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace OomphInc\ComposerInstallersExtender;
+namespace NathanDentzau\ComposerInstallersExtender;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
-use OomphInc\ComposerInstallersExtender\Installers\Installer;
+use NathanDentzau\ComposerInstallersExtender\Installers\Installer;
 
 class Plugin implements PluginInterface
 {
